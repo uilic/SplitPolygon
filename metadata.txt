@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Split Polygon
+qgisMinimumVersion=2.0
+description=Split polygon is a QGIS plugin developed to solve the problem of dividing polygons into different ways
+version=0.1
+author=Uros Ilic
+email=uros92vozd@gmail.com
+
+about=Split polygon is a QGIS plugin developed to solve the problem of dividing polygons into different ways. This can be very useful in jobs like land parceling and many others. The user can define 4 ways of dividing by himself. The offered options of division are: - one cut by entered area - one cut once by entered percentage of polygons area - multiple cuts into equal parts - multiple cuts into parts with an equal width
+
+tracker=https://github.com/uilic/SplitPolygon
+repository=https://github.com/uilic/SplitPolygon
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=shapefile, polygon, area, split, divide, feature
+
+homepage=https://github.com/uilic/SplitPolygon
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
