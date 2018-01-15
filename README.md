@@ -4,6 +4,9 @@
 
 Uros Ilic
 
+### contact:
+uros92vozd@gmail.com
+
 ### About plugin
 
 Split polygon is a QGIS plugin developed to solve the problem of dividing polygons into different ways. This can be very useful in jobs like land parceling and many others.
