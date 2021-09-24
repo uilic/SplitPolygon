@@ -244,7 +244,7 @@ class SplitPolygon:
                             d.rotate_polygon(0 - angle)
                             draw_polygon(d, lejer,attributes[i])
                 else:
-                    continue
+                    self.iface.messageBar().pushMessage("Error", "POLYGON MUST BE CONVEX!", level=Qgis.Critical, duration=10)
             lejer.updateFields()
             QgsMapLayerRegistry.instance().addMapLayers([lejer])
 
